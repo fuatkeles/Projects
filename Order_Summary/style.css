@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+    background-color:hsl(225, 100%, 94%);
+  font-size: 1em;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  margin: auto;
+  margin-top: 5%;
+  background-color: white;
+  width: 25%;
+
+  border-radius: 15px;
+}
+
+.img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 1em;
+}
+
+.form {
+  text-align: center;
+}
+.head {
+    margin-top:8%;
+  margin-bottom: 1em;
+  font-weight: 900;
+  hsl(223, 47%, 23%)
+}
+.para {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 1.5em;
+  font-weight: 500;
+}
+.inline {
+  background-color: hsl(225, 100%, 98%);
+  margin: 10px auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 10px;
+  width: 70%;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.yazi {
+  margin-left: -90px;
+}
+.parag {
+  font-weight: bold;
+  color: hsl(223, 47%, 23%);
+}
+.dolar {
+  color: gray
+  font-weight: bold;
+}
+#change {
+  background: none;
+  border: none;
+  color: hsl(245, 75%, 52%);
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#pay {
+  width: 70%;
+  height: 50px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 1em;
+  font-size: 1em;
+  font-style: unset;
+  margin-bottom: 1.5em;
+  font-weight: 700;
+}
+#cancel {
+  font-size: 1em;
+  color: hsl(224, 23%, 55%);
+  border: none;
+  background: none;
+  margin-bottom: 2em;
+  font-weight: 700;
+}
+
+#change:hover{
+    color:hsl(224, 23%, 55%)
+    
+}
+#pay:hover{
+    background-color:hsl(224, 23%, 55%)
+}
+#cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+.attribution{
+    margin-top: 8%;
+    text-align: right;
+}
