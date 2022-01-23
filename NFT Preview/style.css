@@ -31,8 +31,8 @@ body {
 
 .resim {
   float: left;
-  max-width: 40px;
-  max-height: 40px;
+  max-width: 10%;
+  max-height: 10%;
   object-fit: cover;
   border: 1px solid white;
   border-radius: 75%;
@@ -40,6 +40,7 @@ body {
 
 .days {
   margin-left: 100px;
+  color: white;
 }
 .card {
   padding: 15px;
@@ -52,11 +53,13 @@ body {
 }
 .para {
   margin-bottom: 15px;
+  color: hsl(215, 51%, 70%);
 }
 .eth {
   margin-bottom: 15px;
   color: cyan;
 }
+
 hr {
   border: 1px solid hsl(215, 32%, 27%);
   margin-bottom: 15px;
@@ -70,4 +73,7 @@ hr {
 }
 .name:hover {
   color: cyan;
+}
+.creator {
+  color: hsl(215, 51%, 70%);
 }
