@@ -41,29 +41,37 @@ body {
   margin-bottom: 1.5em;
   font-weight: 500;
 }
-.inline {
-  background-color: hsl(225, 100%, 98%);
-  margin: 10px auto;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding: 10px;
-  width: 70%;
+
+.plan{
+  background-color: hsl(225, 100%, 94%);
   border-radius: 1em;
   display: flex;
+  padding: 20px;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 1.5em;
+}
+.planleft{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.ann{
+  margin-left: 1em;
+}
+a{
+  font-weight: bold;
 }
 
-.yazi {
-  margin-left: -90px;
-}
 .parag {
   font-weight: bold;
+  font-size: 1em;
   color: hsl(223, 47%, 23%);
 }
 .dolar {
-  color: gray
+  color: gray;
   font-weight: bold;
 }
 #change {
