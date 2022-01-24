@@ -15,7 +15,7 @@ body {
   margin: auto;
   margin-top: 5%;
   background-color: white;
-  width: 100%;
+  width: 40%;
 
   border-radius: 15px;
 }
@@ -85,7 +85,7 @@ a{
 }
 
 #pay {
-  width: 100%;
+  width: 80%;
   height: 50px;
   background-color: hsl(245, 75%, 52%);
   color: white;
