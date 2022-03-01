@@ -19,21 +19,27 @@ const formGroup = document.querySelectorAll(".form-group");
     })
 }*/ 
 
-form.addEventListener("click",(e) =>{
-    console.log(e.target);
-    e.preventDefault();
-    //Ekleye'ye basınca çıkacak tablonun doldurulması
-    if (e.target === ekle){
-        cars.innerHTML+=
-        `<tr>
-            <td><img src="${resim.value}" class="img-fluid img-thumbnail"></td>
+form.addEventListener("submit",(e) =>{
+   //Ekleye'ye basınca çıkacak tablonun doldurulması
+    cars.innerHTML +=
+    `<tr>
+        <td><img src="${resim.value}" class="img-fluid img-thumbnail"></td>
             <td>${model.value}</td>
             <td>${yıl.value}</td>
             <td>${renk.value}</td>
             <td>${km.value}</td>
             <td>${fiyat.value}<a href="#" id = "delete-car" class = "btn btn-danger">Satıldı</a></td>
-        </tr>`
-        
-    }
+    </tr>`
+    e.preventDefault(); 
+    clear();
 
 })
+//Butona basılınca içeriyi temizlesin
+function clear(){
+    model.value = "";
+    resim.value = "";
+    yıl.value = "";
+    renk.value = "";
+    km.value = "";
+    fiyat.value = "";
+}
