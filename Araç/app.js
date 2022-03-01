@@ -39,8 +39,8 @@ form.addEventListener("submit",(e) =>{
             <td>${fiyat.value}<a href="#" id = "delete-car" class = "btn btn-danger">Satıldı</a></td>
     </tr>`
     clear();
+    //Alerti silme
     document.querySelector(".alert").remove();
-    //div.remove();
     }   
     e.preventDefault(); 
     
@@ -58,8 +58,7 @@ function clear(){
 //Boş alan bırakılmaması için gerekli uyarıyı oluşturma
 function div(){
     const div = document.createElement("div");
-    div.className = "alert alert-success"
+    div.className = "alert alert-danger"
     div.textContent = "Boş alan bırakmayın!"
     body.appendChild(div);
-
 }
