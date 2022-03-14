@@ -60,13 +60,14 @@ const getWeateherDataFromApi = async() => {
             <figcaption>${weather[0].description}</figcaption>
         </figure>`;
         cityList.prepend(createdCityCardLi);
-        setTimeout(()=>{
-            msg.innerText = "";
-        }, 5000)
+        
         form.reset();
         input.focus();
     } catch (error) {
         msg.innerText = error;
+        setTimeout(()=>{
+            msg.innerText = "";
+        }, 5000)
     }
 }
 
